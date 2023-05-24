@@ -1,55 +1,119 @@
-<p align="center">
-  <img alt="Rocketseat Education" src="https://avatars.githubusercontent.com/u/69590972?s=200&v=4" width="100px" />
-</p>
+<h3 align="center">
+   <img src="./web/src/app/icon.png" alt="NLW Spacetime" width="300"/>
+</h3>
+
+<h1 align="center">
+   NLW Spacetime - Cápsula do Tempo
+</h1>
 
 <p align="center">
-  <img src="https://img.shields.io/static/v1?label=Rocketseat&message=Education&color=8257e5&labelColor=202024" alt="Rocketseat Project" />
-  <a href="LICENSE"><img  src="https://img.shields.io/static/v1?label=License&message=MIT&color=8257e5&labelColor=202024" alt="License"></a>
+  Aplicação feita pela <a href="https://www.rocketseat.com.br/" target="_blank">@Rocketseat</a> com o intuito de recordar memórias, onde o usuário pode adicionar à uma timeline textos, fotos e vídeos de acontecimentos marcantes da sua vida, organizados por mês e ano.
 </p>
 
-## 💻 Projeto
+---
 
-Aplicação de recordação de memórias, onde o usuário poderá adicionar à uma timeline textos, fotos e vídeos de acontecimentos marcantes da sua vida, organizados por mês e ano.
+# 👨‍💻 Execução
 
-## 📝 Tecnologias
+> Clone o Repositório
+
+```bash
+git clone https://github.com/projects-gustavo/nlw-spacetime.git
+```
+
+## Server
+
+> Acesse o Server
+
+```bash
+cd server
+```
+
+> Instale as dependências
+
+```bash
+npm install
+```
+
+> Informe as variáveis de ambiente
+
+```bash
+GITHUB_CLIENT_ID=""
+GITHUB_CLIENT_SECRET=""
+```
+
+> Execute o prisma para criar as tabelas
+
+```bash
+npx prisma migrate dev
+```
+
+> Inicie o serviço
+
+```bash
+npm run dev
+```
+
+## Web
+
+> Com o server iniciado, acesse o projeto Web
+
+```bash
+cd .. && cd web
+```
+
+> Instale as dependências
+
+```bash
+npm install
+```
+
+> Informe a variável ambiente
+
+```bash
+NEXT_PUBLIC_GITHUB_CLIENT_ID=
+```
+
+> Inicie o projeto
+
+```bash
+npm run dev
+```
+
+> ➡️ Para acessar a aplicação basta colocar [http://localhost:3000](http://localhost:3000) no seu navegador.
+
+---
+
+# 🚀 Tecnologias
+
 
 ### Web
-• Next.js <br />
-• TypeScript <br />
-• Tailwind CSS <br />
-• Axios <br />
-• Lucide-react <br />
-• Dayjs <br />
-• Js-cookie <br /> 
-• Jwt-decode
+- Next.js
+- TypeScript
+- Tailwind CSS
+- Axios
+- Lucide-react
+- Dayjs
+- Js-cookie
+- Jwt-decode
 
 ### Server
-• Fastify <br />
-• TypeScript & tsx <br />
-• Prisma <br />
-• Axios <br />
-• Zod <br />
-• Dotenv
+- Fastify
+- TypeScript & tsx
+- Prisma
+- Axios
+- Zod
+- Dotenv
 
 ### Mobile
-• Expo <br />
-• React Native <br />
-• TypeScript <br />
-• NativeWind & Tailwind CSS <br />
-• Axios <br />
-• Dayjs
+- Expo
+- React Native
+- TypeScript
+- NativeWind & Tailwind CSS
+- Axios
+- Dayjs
 
 ---
 
 <p align="center">
-  Feito com 💜 no NLW da Rocketseat
-</p>
-
-<br />
-<br />
-
-<p align="center">
-  <a href="https://discord.gg/rocketseat" target="_blank">
-    <img align="center" src="https://storage.googleapis.com/golden-wind/comunidade/rodape.svg" alt="banner"/>
-  </a>
+  Feito com 💜 no NLW da <a href="https://www.rocketseat.com.br/" target="_blank">Rocketseat</a>
 </p>
