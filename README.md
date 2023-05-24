@@ -14,7 +14,7 @@
 
 # 👨‍💻 Execução
 
-> Clone o Repositório
+> Clone o repositório
 
 ```bash
 git clone https://github.com/projects-gustavo/nlw-spacetime.git
@@ -55,7 +55,7 @@ npm run dev
 
 ## Web
 
-> Com o server iniciado, acesse o projeto Web
+> Com o server iniciado, acesse o projeto web
 
 ```bash
 cd .. && cd web
