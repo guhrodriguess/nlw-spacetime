@@ -7,7 +7,7 @@
 </h1>
 
 <p align="center">
-  Aplicação feita no NLW da <a href="https://www.rocketseat.com.br/" target="_blank">@Rocketseat</a> com o intuito de recordar memórias, onde o usuário pode adicionar à uma timeline textos, fotos e vídeos de acontecimentos marcantes da sua vida, organizados por mês e ano.
+  Aplicação feita no NLW da <a href="https://www.rocketseat.com.br/" target="_blank">@Rocketseat</a> com o intuito de recordar memórias, onde o usuário pode adicionar à uma timeline textos e fotos de acontecimentos marcantes da sua vida, organizados por mês e ano.
 </p>
 
 ---
