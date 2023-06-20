@@ -17,7 +17,7 @@
 > Clone o repositório
 
 ```bash
-git clone https://github.com/projects-gustavo/nlw-spacetime.git
+git clone https://github.com/guhrodriguess/nlw-spacetime.git
 ```
 
 ## Server
